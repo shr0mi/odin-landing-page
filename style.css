@@ -49,3 +49,30 @@ body{
     color: white;
     border-radius: 4px;
 }
+
+.yonkos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.yonkos h1 {
+    margin-bottom: 50px;
+}
+
+.yonkos .emperors {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.yonkos .emperors .card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+}
+
+.yonkos .emperors .card img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
