@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -19,4 +19,33 @@ body{
 .header ul a{
     text-decoration: none;
     color: white;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero .left {
+    color: white;
+    width: 500px;
+}
+
+.hero .left h1{
+    margin-top: 0px;
+    font-size: 3em;
+}
+
+.hero .left button{
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
 }
